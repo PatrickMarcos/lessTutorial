@@ -1,0 +1,17 @@
+{
+  "name": "lesstutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lessc style.less style.css",
+    "gulp":"gulp imageMimi"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "less": "^3.11.1"
+  }
+}

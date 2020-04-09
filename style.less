@@ -1,0 +1,18 @@
+@primarycolor :#ff7f50;
+@color: #800080;
+@colormain: #478;
+
+.funcoes{
+    .addColor(@cor, @tamanho){
+        color: @cor;
+        font-size: @tamanho + 10;
+    }
+}
+
+h1 { .funcoes .addColor(@colormain, 30px)}
+
+h3 {
+    &:extend(h1);
+    color: @color;
+}
+
